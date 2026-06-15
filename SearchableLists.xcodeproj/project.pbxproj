@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CBFA899C2FDEEE9D008F2D6B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CBFA899B2FDEEE96008F2D6B /* .gitignore */; };
+		CBFA98402FE0361C00830E6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CBFA983F2FE0361400830E6A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBFA898A2FDEE9C9008F2D6B /* SearchableLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchableLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFA899B2FDEEE96008F2D6B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CBFA983F2FE0361400830E6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CBFA898C2FDEE9C9008F2D6B /* SearchableLists */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SearchableLists;
+			sourceTree = "<group>";
+		};
+		CBFA983B2FE035D000830E6A /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,6 +44,8 @@
 		CBFA89812FDEE9C9008F2D6B = {
 			isa = PBXGroup;
 			children = (
+				CBFA983F2FE0361400830E6A /* README.md */,
+				CBFA983B2FE035D000830E6A /* assets */,
 				CBFA899B2FDEEE96008F2D6B /* .gitignore */,
 				CBFA898C2FDEE9C9008F2D6B /* SearchableLists */,
 				CBFA898B2FDEE9C9008F2D6B /* Products */,
@@ -68,6 +77,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CBFA898C2FDEE9C9008F2D6B /* SearchableLists */,
+				CBFA983B2FE035D000830E6A /* assets */,
 			);
 			name = SearchableLists;
 			packageProductDependencies = (
@@ -116,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFA899C2FDEEE9D008F2D6B /* .gitignore in Resources */,
+				CBFA98402FE0361C00830E6A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
